@@ -1,4 +1,4 @@
-# Spacehuhn.com
+# Spacehuhn Website
 
 [Link](https://spacehuhn.github.io)  
 
