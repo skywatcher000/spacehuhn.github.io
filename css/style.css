@@ -1,0 +1,242 @@
+/* ===== Fonts ===== */
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* ===== Background ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+  min-width: 480px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#sky {
+  background: -webkit-linear-gradient(#00111e 30%, #033d5e);
+  background: -moz-linear-gradient(#00111e 30%, #033d5e);
+  background: -o-linear-gradient(#00111e 30%, #033d5e);
+  background: linear-gradient(#00111e 30%, #033d5e);
+  overflow: hidden;
+}
+
+/* ===== Website ===== */
+html {
+  font-family: "lato", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  /* Prevent user from highlighting anything */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #eee;
+  cursor: pointer;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+#content {
+  position: absolute;
+  max-width: 100% !important;
+  min-width: 372px;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 98;
+  color: #eee;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#title {
+  font-weight: 300;
+  font-size: 4rem;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  color: #eee;
+}
+
+#spacehuhnimage {
+  margin-top: 10vh;
+}
+
+#spacehuhnimage img {
+  height: 10rem;
+}
+
+#donationlinks {
+  line-height: 2rem;
+}
+
+.socialmedia {
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.socialmedia a {
+  height: 3rem;
+  margin: 0 0.25rem;
+  display: inline-block;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  background: rgba(220, 220, 255, 0.2);
+}
+
+.socialmedia a:hover {
+  background: rgba(220, 220, 255, 0.3);
+}
+
+.socialmedia img {
+  height: 3rem;
+}
+
+.links {
+  color: #eee;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.links a {
+  color: #eee;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background: rgba(220, 220, 255, 0.2);
+  padding: 0.5rem;
+  margin: 0 0.1rem;
+}
+
+.links a:hover {
+  background: rgba(220, 220, 255, 0.3);
+}
+
+.project .logo {
+  margin-bottom: 1rem;
+  height: auto;
+  height: auto;
+  width: auto;
+  max-width: 128px;
+  max-height: 128px;
+}
+
+.project {
+  color: #eee;
+  padding: 5vh 5%;
+  width: 80%;
+  margin: 0 5%;
+}
+
+.project .header {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.project img {
+  height: 3rem;
+}
+
+#profilepic img {
+  background: #000;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10%;
+}
+
+#footer {
+  margin: 10% 0;
+  display: none;
+}
+
+/* ===== Spacehuhn Bounce ====== */
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  51% {
+    -webkit-transform: translateY(0.4rem);
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    -moz-transform: translateY(0);
+  }
+
+  51% {
+    -moz-transform: translateY(0.4rem);
+  }
+}
+
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -o-transform: translateY(0);
+  }
+
+  51% {
+    -o-transform: translateY(0.4rem);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  51% {
+    transform: translateY(0.4rem);
+  }
+}
+
+#spacehuhnimage img:hover {
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
