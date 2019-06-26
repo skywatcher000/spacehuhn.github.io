@@ -64,6 +64,14 @@ html {
   user-select: none;
 }
 
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  min-height: 560px;
+  min-width: 480px;
+  height: 100vh;
+  overflow: hidden !important;
+}
+
 a {
   text-decoration: none;
   color: #eee;
@@ -98,10 +106,10 @@ hr {
 }
 
 #content {
-  position: fixed;
+  position: absolute;
   top: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   min-width: 372px;
   z-index: 98;
   color: #eee;
