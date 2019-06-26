@@ -125,17 +125,19 @@ hr {
   color: #eee;
 }
 
-/*
-#spacehuhnimage {
-  margin-top: 10vh;
-}
-*/
 #spacehuhnimage img {
   height: 10rem;
 }
 
 #donationlinks {
   line-height: 2rem;
+}
+
+#backbutton {
+  position: sticky;
+  top: 1rem;
+  margin-right: 1.5rem !important;
+  float: right;
 }
 
 .socialmedia {
@@ -166,7 +168,7 @@ hr {
   margin-bottom: 2rem;
 }
 
-.links a, .backbutton {
+.links a, #backbutton {
   color: #eee;
   text-transform: uppercase;
   border: 2px solid transparent;
@@ -179,12 +181,6 @@ hr {
 
 .links a:hover {
   background: rgba(220, 220, 255, 0.3);
-}
-
-.backbutton {
-  position: absolute;
-  left: 0;
-  margin: 10px;
 }
 
 .project .logo {
