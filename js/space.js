@@ -16,10 +16,15 @@ function copyToClipboard(element) {
   document.body.removeChild(el);
 }
 
-
 window.onload = function() {
   document.getElementById("profilepic").addEventListener('click', changeImage);
   document.getElementById("btc").addEventListener('click', copyToClipboard);
   document.getElementById("ltc").addEventListener('click', copyToClipboard);
   document.getElementById("eth").addEventListener('click', copyToClipboard);
 };
+
+window.onhashchange = function() {
+  var elementName = window.location.hash.substring(1);
+  var element = document.getElementById(elementName);
+  if (element) element.scrollIntoView();
+}
