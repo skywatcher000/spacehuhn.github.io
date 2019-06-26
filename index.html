@@ -12,7 +12,6 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
   <link href='css/normalize.css' rel='stylesheet' type='text/css'>
   <link href='css/style.css' rel='stylesheet' type='text/css'>
-
 </head>
 
 <body>
@@ -21,401 +20,353 @@
   <div id="content">
 
     <!-- ========== HOMEPAGE ========== -->
-    <div id='spacehuhnimage'>
-      <img src="img/spacehuhn.png" alt="Spacehuhn">
-    </div>
+    <div class="page" id="home">
+      <div id='spacehuhnimage'>
+        <img src="img/spacehuhn.png" alt="Spacehuhn">
+      </div>
 
-    <h1 id='title'>Spacehuhn</h1>
+      <h1 id='title'>Spacehuhn</h1>
 
-    <div class='socialmedia'>
-      <a target="_blank" href="https://github.com/spacehuhn"><img src="img/github.png"></a>
-      <a target="_blank" href="https://www.youtube.com/spacehuhn"><img src="img/youtube.png"></a>
-      <a target="_blank" href="https://twitter.com/spacehuhn"><img src="img/twitter.png"></a>
-      <a target="_blank" href="https://discord.gg/7Ay378G"><img src="img/discord.png"></a>
-      <a target="_blank" href="http://insecurespace.com/"><img src="img/podcast.png"></a>
-    </div>
+      <div class='socialmedia'>
+        <a target="_blank" href="https://github.com/spacehuhn"><img src="img/github.png"></a>
+        <a target="_blank" href="https://www.youtube.com/spacehuhn"><img src="img/youtube.png"></a>
+        <a target="_blank" href="https://twitter.com/spacehuhn"><img src="img/twitter.png"></a>
+        <a target="_blank" href="https://discord.gg/7Ay378G"><img src="img/discord.png"></a>
+        <a target="_blank" href="http://insecurespace.com/"><img src="img/podcast.png"></a>
+      </div>
 
-    <div class='links'>
-      <a>About</a>
-      <a>Projects</a>
-      <a>Store</a>
-      <a>Donate</a>
+      <div class='links'>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#support">Support</a>
+      </div>
     </div>
+    <hr>
 
     <!-- ========== ABOUT ========== -->
-    <div id="profilepic">
-      <img src="img/gallery/0.jpg" id="spacehuhngallery" alt="Spacehuhn profile picture">
+    <a href="#home" class="backbutton">Back</a>
+    <div class="page" id="about">
+      <div id="profilepic">
+        <img src="img/gallery/0.jpg" id="spacehuhngallery" alt="Spacehuhn profile picture">
+      </div>
+
+      <p>
+        Studying computer science.<br>
+        Hacking around with Arduino and WiFi stuff,<br>
+        also organizing the Hacker- & Makerspace <a href="https://binhacken.de" target="_blank">/bin/hacken</a>
+      </p>
+
+      <p>
+        <b>Name: </b><span class="light">Stefan Kremser</span><br>
+        <b>Email: </b><span class="light"><a href="mailto:mail@spacehuhn.com">mail@spacehuhn.com</a></span><br>
+        <b>Location: </b><span class="light">Outer space</span><br>
+        <b>Age: </b><span class=" light">21</span><br>
+        <b>Languages: </b><span class="light">German, English, C, C++, Java</span>
+      </p>
     </div>
-
-    <p>
-      Studying computer science.<br>
-      Hacking around with Arduino and WiFi stuff,<br>
-      also organizing the Hacker- & Makerspace <a href="https://binhacken.de" target="_blank">/bin/hacken</a>
-    </p>
-
-    <p>
-      <b>Name: </b><span class="light">Stefan Kremser</span><br>
-      <b>Email: </b><span class="light"><a href="mailto:mail@spacehuhn.com">mail@spacehuhn.com</a></span><br>
-      <b>Location: </b><span class="light">Outer space</span><br>
-      <b>Age: </b><span class=" light">21</span><br>
-      <b>Languages: </b><span class="light">German, English, C, C++, Java</span>
-    </p>
+    <hr>
 
     <!-- ========== PROJECTS ========== -->
+    <a href="#home" class="backbutton">Back</a>
+    <div class="page" id="projects">
 
-    <!-- [ ===== Smart Light ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/smartlight.png" alt="deauther logo">
+      <!-- [ ===== Smart Light ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/smartlight.png" alt="deauther logo">
 
-      <p class="header">Hacking Smart Light Bulbs</p>
+        <p class="header">Hacking Smart Light Bulbs</p>
 
-      <p class="description">
-        How to hack ESP8266 based smart light bulbs<br>
-        <span class="light"></span>
-        <br>2019
-      </p>
+        <p class="description">
+          How to hack ESP8266 based smart light bulbs<br>
+          <span class="light"></span>
+          <br>2019
+        </p>
 
-      <div class='socialmedia'>
-        <a target="_blank" href="https://www.youtube.com/watch?v=_2yjB6T9uC8"><img src="img/youtube.png"></a>
-      </div>
-    </div>
-
-    <!-- [ ===== SimpleCLI ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/simplecli_bright.gif" alt="deauther logo">
-
-      <p class="header">Arduino SimpleCLI</p>
-
-      <p class="description">
-        A Command Line Interface Library for Arduino!<br>
-        <span class="light">
-          Add commands to your project without hassle.
-        </span>
-        <br>2018-2019
-      </p>
-
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/SimpleCLI"><img src="img/github.png"></a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=UyW-wICdnKo"><img src="img/youtube.png"></a>
-      </div>
-    </div>
-
-
-    <!-- [ ===== WiFi Satellite ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/satellite.png" alt="wifisatellite logo">
-
-      <p class="header">
-        WiFi Satellite
-      </p>
-
-      <p class="description">
-        Monitoring and logging the traffic of all 14 2.4GHz channels.<br>
-        <span class="light">
-          14 ESP32 boards, each with an OLED screen and SD card slot<br>
-          to display and log the 2.4GHz traffic.
-        </span>
-        <br>2017-2019
-      </p>
-
-      <div class='socialmedia'>
-        <a target="_blank" href="https://hackaday.io/project/28831-wifi-satellite-34c3"><img src="img/hackaday.png"></a>
-        <a target="_blank" href="https://www.youtube.com/watch?v=-q0YnqP5mfk"><img src="img/youtube.png"></a>
-      </div>
-    </div>
-
-    <!-- [ ===== Deauther ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/deauther.png" alt="deauther logo">
-
-      <p class="header">ESP8266 Deauther</p>
-
-      <p class="description">
-        Deauthentication attacks and other 'hacks' using an ESP8266.<br>
-        <span class="light">
-          Disconnect/Deauths selected WiFi connections continuously.<br>
-          Other attacks have also been implemented, such as beacon and probe request flooding.
-        </span>
-        <br>2017-2019
-      </p>
-
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/esp8266_deauther"><img src="img/github.png"></a>
-        <a target="_blank" href="https://www.youtube.com/playlist?list=PLqBJwWDE3G0L7CFkoum4KV6vX-NY8oMXD"><img src="img/youtube.png"></a>
-      </div>
-    </div>
-
-    <!-- [ ===== PacketMonitor ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/packetmonitor.png" alt="PacketMonitor logo">
-
-      <p class="header">
-        PacketMonitor
-      </p>
-
-      <p class="description">
-        ESP8266 + OLED = WiFi Packet Monitor.<br>
-        <span class="light">
-          Did you ever wonder how many data packets are flying around you right now?<br>
-          This little project tells you how many Wi-Fi packets are send every second on the selected channel.
-        </span>
-        <br>2018
-      </p>
-
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/PacketMonitor"><img src="img/github.png"></a>
-        <a target="_blank" href="https://youtu.be/RGkqemAGbjU"><img src="img/youtube.png"></a>
-      </div>
-    </div>
-
-    <!-- [ ===== PacketMonitor32 ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/packetmonitor32.png" alt="PacketMonitor32 logo">
-
-      <p class="header">
-        PacketMonitor32
-      </p>
-
-      <p class="description">
-        ESP32 PacketMonitor + SD card!<br>
-        <span class="light">
-          Enhanced PacketMonitor for the ESP32.<br>
-          It shows you the packets per second on the selected WiFi channel and saves them.
-        </span>
-        <br>2017
-      </p>
-
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/PacketMonitor32"><img src="img/github.png"></a>
-        <a target="_blank" href="https://youtu.be/7WYakpagPXk"><img src="img/youtube.png"></a>
+        <div class='socialmedia'>
+          <a target="_blank" href="https://www.youtube.com/watch?v=_2yjB6T9uC8"><img src="img/youtube.png"></a>
+        </div>
       </div>
 
-    </div>
+      <!-- [ ===== SimpleCLI ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/simplecli_bright.gif" alt="deauther logo">
 
-    <!-- [ ===== DeauthDetector ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/deauthdetector.png" alt="DeauthDetector logo">
+        <p class="header">Arduino SimpleCLI</p>
 
-      <p class="header">
-        Deauth Detector
-      </p>
+        <p class="description">
+          A Command Line Interface Library for Arduino!<br>
+          <span class="light">
+            Add commands to your project without hassle.
+          </span>
+          <br>2018-2019
+        </p>
 
-      <p class="description">
-        Detect deauthentication frames using an ESP8266<br>
-        <span class="light">
-          Will blink when it detects deauthentication or disassociation frames.<br>
-          That's all ¯\_(ツ)_/¯.
-        </span>
-        <br>2017, 2019
-      </p>
-
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/DeauthDetector"><img src="img/github.png"></a>
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/SimpleCLI"><img src="img/github.png"></a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=UyW-wICdnKo"><img src="img/youtube.png"></a>
+        </div>
       </div>
-    </div>
 
-    <!-- [ ===== WiFi Ducky ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/wifiducky.png" alt="WiFi Ducky logo">
+      <!-- [ ===== WiFi Satellite ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/satellite.png" alt="wifisatellite logo">
 
-      <p class="header">WiFi Ducky</p>
+        <p class="header">
+          WiFi Satellite
+        </p>
 
-      <p class="description">
-        Upload, save and run keystroke injection attacks with an ESP8266 + ATMEGA32U4.<br>
-        <span class="light">
-          Wi-Fi controlled 'BadUSB' device to remotely execute Ducky Scripts.
-        </span>
-        <br>2017
-      </p>
+        <p class="description">
+          Monitoring and logging the traffic of all 14 2.4GHz channels.<br>
+          <span class="light">
+            14 ESP32 boards, each with an OLED screen and SD card slot<br>
+            to display and log the 2.4GHz traffic.
+          </span>
+          <br>2017-2019
+        </p>
 
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/wifi_ducky"><img src="img/github.png"></a>
+        <div class='socialmedia'>
+          <a target="_blank" href="https://hackaday.io/project/28831-wifi-satellite-34c3"><img src="img/hackaday.png"></a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=-q0YnqP5mfk"><img src="img/youtube.png"></a>
+        </div>
       </div>
-    </div>
 
-    <!-- [ ===== ESP8266 Beacon Spam ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/beaconspam.png" alt="esp8266_beaconSpam logo">
+      <!-- [ ===== Deauther ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/deauther.png" alt="deauther logo">
 
-      <p class="header">ESP8266 Beacon Spam</p>
+        <p class="header">ESP8266 Deauther</p>
 
-      <p class="description">
-        Creates up to a thousand fake WiFi access points with custom SSIDs.<br>
-        <span class="light"></span>
-        <br>2017
-      </p>
+        <p class="description">
+          Deauthentication attacks and other 'hacks' using an ESP8266.<br>
+          <span class="light">
+            Disconnect/Deauths selected WiFi connections continuously.<br>
+            Other attacks have also been implemented, such as beacon and probe request flooding.
+          </span>
+          <br>2017-2019
+        </p>
 
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/esp8266_beaconSpam"><img src="img/github.png"></a>
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/esp8266_deauther"><img src="img/github.png"></a>
+          <a target="_blank" href="https://www.youtube.com/playlist?list=PLqBJwWDE3G0L7CFkoum4KV6vX-NY8oMXD"><img src="img/youtube.png"></a>
+        </div>
       </div>
-    </div>
 
-    <!-- [ ===== ArduinoPcap ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/arduinopcap.png" alt="arduinopcap logo">
-      <p class="header">Arduino Pcap</p>
+      <!-- [ ===== PacketMonitor ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/packetmonitor.png" alt="PacketMonitor logo">
 
-      <p class="description">
-        Create and send .pcap files using ESP8266/ESP32 and Arduino.<br>
-        <span class="light">
-          Proof of concept library for Arduino to communicate with Wireshark over UART.
-        </span>
-        <br>2017
-      </p>
+        <p class="header">
+          PacketMonitor
+        </p>
 
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/ArduinoPcap"><img src="img/github.png"></a>
-        <a target="_blank" href="https://youtu.be/3Ac6X6ZBQ0g"><img src="img/youtube.png"></a>
+        <p class="description">
+          ESP8266 + OLED = WiFi Packet Monitor.<br>
+          <span class="light">
+            Did you ever wonder how many data packets are flying around you right now?<br>
+            This little project tells you how many Wi-Fi packets are send every second on the selected channel.
+          </span>
+          <br>2018
+        </p>
+
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/PacketMonitor"><img src="img/github.png"></a>
+          <a target="_blank" href="https://youtu.be/RGkqemAGbjU"><img src="img/youtube.png"></a>
+        </div>
       </div>
-    </div>
 
-    <!-- [ ===== WiFiKeylogger ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/wifikeylogger.png" alt="WiFiKeylogger logo">
+      <!-- [ ===== PacketMonitor32 ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/packetmonitor32.png" alt="PacketMonitor32 logo">
 
-      <p class="header">WiFi Keylogger</p>
+        <p class="header">
+          PacketMonitor32
+        </p>
 
-      <p class="description">
-        Arduino Keylogger with Wi-Fi!<br>
-        <span class="light">
-          An ATmega32u4 to emulate a keyboard, an USB host shield for getting the keystrokes<br>
-          and an ESP8266 for storing and retrieving the recorded logs.
-        </span>
-        <br>2017
-      </p>
+        <p class="description">
+          ESP32 PacketMonitor + SD card!<br>
+          <span class="light">
+            Enhanced PacketMonitor for the ESP32.<br>
+            It shows you the packets per second on the selected WiFi channel and saves them.
+          </span>
+          <br>2017
+        </p>
 
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/wifi_keylogger"><img src="img/github.png"></a>
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/PacketMonitor32"><img src="img/github.png"></a>
+          <a target="_blank" href="https://youtu.be/7WYakpagPXk"><img src="img/youtube.png"></a>
+        </div>
+
       </div>
-    </div>
 
-    <!-- [ ===== WiFiKeylogger ===== ] -->
-    <div class="project">
-      <img class="logo" src="img/arpspoof.png" alt="ARP Spoofer logo">
+      <!-- [ ===== DeauthDetector ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/deauthdetector.png" alt="DeauthDetector logo">
 
-      <p class="header">Arduino ARP Spoof</p>
+        <p class="header">
+          Deauth Detector
+        </p>
 
-      <p class="description">
-        Kicks out everyone in your LAN!<br>
-        <span class="light">
-          Using an Arduino with an ethernet controller, this device will perform an
-          ARP spoofing attack to block the communication from any client device in your LAN to the gateway.
-        </span>
-        <br>2017
-      </p>
+        <p class="description">
+          Detect deauthentication frames using an ESP8266<br>
+          <span class="light">
+            Will blink when it detects deauthentication or disassociation frames.<br>
+            That's all ¯\_(ツ)_/¯.
+          </span>
+          <br>2017, 2019
+        </p>
 
-      <div class='socialmedia'>
-        <a target="_blank" href="https://github.com/spacehuhn/ArduinoARPspoof"><img src="img/github.png"></a>
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/DeauthDetector"><img src="img/github.png"></a>
+        </div>
       </div>
-    </div>
 
-    <!-- ========= STORE ========== -->
-    <div class="project">
-      <p class="header">Info</p>
-      <p class="description">
-        Here are a couple of links where you can purchase hardware that is related to my projects.<br>
-        This helps me keep going, so I much appreciate your support!
-      </p>
-    </div>
+      <!-- [ ===== WiFi Ducky ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/wifiducky.png" alt="WiFi Ducky logo">
 
-    <div class="project">
-      <p class="header">DSTIKE Store</p>
-      <p class="description">
-        Buy development boards made and sold by Travis Lin.<br>
-      </p>
-      <div class='links'>
-        <a target="_blank" href="https://dstike.com/">DSTIKE.com</a>
-        <a target="_blank" href="https://www.tindie.com/stores/lspoplove/">Tindie</a>
-        <a target="_blank" href="https://www.aliexpress.com/store/2996024">AliExpress</a>
-        <a target="_blank" href="https://shop135375846.taobao.com">Taobao</a>
+        <p class="header">WiFi Ducky</p>
+
+        <p class="description">
+          Upload, save and run keystroke injection attacks with an ESP8266 + ATMEGA32U4.<br>
+          <span class="light">
+            Wi-Fi controlled 'BadUSB' device to remotely execute Ducky Scripts.
+          </span>
+          <br>2017
+        </p>
+
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/wifi_ducky"><img src="img/github.png"></a>
+        </div>
       </div>
-    </div>
 
-    <div class="project">
-      <p class="header">Maltronics</p>
-      <p class="description">
-        Seytonic's hacker gadget shop that also sells Deauthers!<br>
-      </p>
-      <div class='links'>
-        <a target="_blank" href="https://maltronics.com/">Maltronics.com</a>
+      <!-- [ ===== ESP8266 Beacon Spam ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/beaconspam.png" alt="esp8266_beaconSpam logo">
+
+        <p class="header">ESP8266 Beacon Spam</p>
+
+        <p class="description">
+          Creates up to a thousand fake WiFi access points with custom SSIDs.<br>
+          <span class="light"></span>
+          <br>2017
+        </p>
+
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/esp8266_beaconSpam"><img src="img/github.png"></a>
+        </div>
       </div>
-    </div>
 
-    <div class="project">
-      <p class="header">Spacehuhn Store</p>
-      <p class="description">
-        Psst... you can get stickers here!
-      </p>
-      <div class='links'>
-        <a target="_blank" href="https://www.tindie.com/stores/spacehuhn/">Tindie</a>
+      <!-- [ ===== ArduinoPcap ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/arduinopcap.png" alt="arduinopcap logo">
+        <p class="header">Arduino Pcap</p>
+
+        <p class="description">
+          Create and send .pcap files using ESP8266/ESP32 and Arduino.<br>
+          <span class="light">
+            Proof of concept library for Arduino to communicate with Wireshark over UART.
+          </span>
+          <br>2017
+        </p>
+
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/ArduinoPcap"><img src="img/github.png"></a>
+          <a target="_blank" href="https://youtu.be/3Ac6X6ZBQ0g"><img src="img/youtube.png"></a>
+        </div>
       </div>
-    </div>
 
-    <div class="project">
-      <p class="header">Davedarko Store</p>
-      <p class="description">
-        Dave sells an awesome Spacehuhn badge that you should check out!<br>
-        And while you're there, why not have look at his other stuff too?
-      </p>
-      <div class='links'>
-        <a target="_blank" href="https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/">Tindie</a>
+      <!-- [ ===== WiFiKeylogger ===== ] -->
+      <div class="project">
+        <img class="logo" src="img/wifikeylogger.png" alt="WiFiKeylogger logo">
+
+        <p class="header">WiFi Keylogger</p>
+
+        <p class="description">
+          Arduino Keylogger with Wi-Fi!<br>
+          <span class="light">
+            An ATmega32u4 to emulate a keyboard, an USB host shield for getting the keystrokes<br>
+            and an ESP8266 for storing and retrieving the recorded logs.
+          </span>
+          <br>2017
+        </p>
+
+        <div class='socialmedia'>
+          <a target="_blank" href="https://github.com/spacehuhn/wifi_keylogger"><img src="img/github.png"></a>
+        </div>
+
+        <!-- [ ===== WiFiKeylogger ===== ] -->
+        <div class="project">
+          <img class="logo" src="img/arpspoof.png" alt="ARP Spoofer logo">
+
+          <p class="header">Arduino ARP Spoof</p>
+
+          <p class="description">
+            Kicks out everyone in your LAN!<br>
+            <span class="light">
+              Using an Arduino with an ethernet controller, this device will perform an
+              ARP spoofing attack to block the communication from any client device in your LAN to the gateway.
+            </span>
+            <br>2017
+          </p>
+
+          <div class='socialmedia'>
+            <a target="_blank" href="https://github.com/spacehuhn/ArduinoARPspoof"><img src="img/github.png"></a>
+          </div>
+        </div>
       </div>
+      <hr>
+
+      <!-- ========== SUPPORT ========= -->
+      <a href="#home" class="backbutton">Back</a>
+      <div class="page" id="support">
+
+        <div id="profilepic">
+          <img src="img/gallery/24.jpg">
+        </div>
+
+        <p id="donationlinks">
+          <b>Donations</b>
+          <div class='links'>
+            <a target="_blank" href="https://liberapay.com/Spacehuhn">liberapay</a>
+            <a target="_blank" href="https://www.patreon.com/spacehuhn">patreon</a>
+            <a target="_blank" href="https://paypal.me/spacechicken">Paypal</a>
+          </div>
+
+          Bitcoin: <span class="light" id="btc">1BQJxTfUushL8XrB85E9U75Dpp5EauLm5Y</span><button onclick="copyToClipboard('btc')">copy</button><br>
+          Litecoin: <span class="light" id="ltc">LhhWdzD4v5ancLZGh7H6YspM1umAnPJCQY</span><button onclick="copyToClipboard('ltc')">copy</button><br>
+          Ethereum: <span class="light" id="eth">0xd68a76d95C6E8d414fAAcB64E4383485c29CCcCd</span><button onclick="copyToClipboard('eth')">copy</button><br>
+          <br>
+          <br>
+
+          <b>Deauther Boards - Each purchase supports me</b>
+          <div class='links'>
+            <a target="_blank" href="https://www.tindie.com/stores/lspoplove/">Tindie</a>
+            <a target="_blank" href="https://maltronics.com/">Maltronics</a>
+            <a target="_blank" href="https://www.aliexpress.com/store/2996024">AliExpress</a>
+            <a target="_blank" href="https://dstike.com/">DSTIKE</a>
+            <a target="_blank" href="https://shop135375846.taobao.com">Taobao</a>
+          </div>
+          <br>
+          <br>
+
+          <b>Nonprofit Spacehuhn Merchandise</b>
+          <div class='links'>
+            <a target="_blank" href="https://www.tindie.com/products/Spacehuhn/spacehuhn-stickers/">Sticker</a>
+            <a target="_blank" href="https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/">Badge</a>
+          </div>
+          <br>
+          <br>
+
+          <b>Affiliate Links</b>
+          <div class='links'>
+            <a target="_blank" href="https://amzn.to/2uOGjR8">Amazon US</a>
+            <a target="_blank" href="https://amzn.to/2JzrffG">Amazon DE</a>
+          </div>
+
+        </p>
+      </div>
+
     </div>
-
-    <!-- ========== DONATE ========= -->
-    <div id="profilepic">
-      <img src="img/gallery/24.jpg">
-    </div>
-
-    <p>Feed the chicken, it's hungry!</p>
-
-    <p id="donationlinks">
-
-      <span class="bold">Liberapay: </span>
-      <span class="light">
-        <a target="_blank" href="https://liberapay.com/Spacehuhn">liberapay.com/Spacehuhn</a>
-      </span>
-      <br>
-
-      <span class="bold">Patreon: </span>
-      <span class="light">
-        <a target="_blank" href="https://www.patreon.com/spacehuhn">patreon.com/spacehuhn</a>
-      </span>
-      <br>
-
-      <span class="bold">PayPal: </span>
-      <a target="_blank" href="https://paypal.me/spacechicken" id="paypal" class="light">mail@spacehuhn.com</a>
-      <br>
-
-      <span class="bold">Bitcoin: </span>
-      <span class="light" id="btc">1BQJxTfUushL8XrB85E9U75Dpp5EauLm5Y</span>
-      <button onclick="copyToClipboard('btc')">copy</button>
-      <br>
-
-      <span class="bold">Litecoin: </span>
-      <span class="light" id="ltc">LhhWdzD4v5ancLZGh7H6YspM1umAnPJCQY</span>
-      <button onclick="copyToClipboard('ltc')">copy</button>
-      <br>
-
-      <span class="bold">Ethereum: </span>
-      <span class="light" id="eth">0xd68a76d95C6E8d414fAAcB64E4383485c29CCcCd</span>
-      <button onclick="copyToClipboard('eth')">copy</button>
-      <br>
-
-      <span class="light">
-        <a target="_blank" href="https://amzn.to/2JzrffG">Amazon DE Affiliate</a>
-      </span>
-      <br>
-
-      <span class="light">
-        <a target="_blank" href="https://amzn.to/2uOGjR8">Amazon US Affiliate</a>
-      </span>
-      <br>
-
-    </p>
-
-
-  </div>
 </body>
 
 <script src="js/space.js"></script>

@@ -76,8 +76,21 @@ button {
   cursor: pointer;
 }
 
+hr {
+  height: 8px;
+  background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  border: 0;
+  height: 3px;
+  width: 65%;
+}
+
 .light {
   font-weight: lighter;
+}
+
+.page {
+  padding-top: 15vh;
+  min-height: 100vh;
 }
 
 #content {
@@ -102,10 +115,11 @@ button {
   color: #eee;
 }
 
+/*
 #spacehuhnimage {
   margin-top: 10vh;
 }
-
+*/
 #spacehuhnimage img {
   height: 10rem;
 }
@@ -115,7 +129,7 @@ button {
 }
 
 .socialmedia {
-  margin-top: 1rem;
+  margin: 2rem;
   height: 3rem;
 }
 
@@ -138,11 +152,11 @@ button {
 
 .links {
   color: #eee;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.links a {
+.links a, .backbutton {
   color: #eee;
   text-transform: uppercase;
   border: 2px solid transparent;
@@ -154,6 +168,12 @@ button {
 
 .links a:hover {
   background: rgba(220, 220, 255, 0.3);
+}
+
+.backbutton {
+  position: absolute;
+  left: 0;
+  margin: 10px;
 }
 
 .project .logo {
