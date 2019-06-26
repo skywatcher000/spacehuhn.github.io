@@ -121,8 +121,7 @@ hr {
 #title {
   font-weight: 300;
   font-size: 4rem;
-  letter-spacing: 10px;
-  padding-left: 10px;
+  letter-spacing: 0.6rem;
   color: #eee;
 }
 
@@ -207,6 +206,7 @@ hr {
 .project .header {
   margin: 0;
   font-size: 2rem;
+  line-height: 2rem;
 }
 
 .project img {
