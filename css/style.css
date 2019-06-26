@@ -44,6 +44,11 @@ html, body {
   background: -o-linear-gradient(#00111e 30%, #033d5e);
   background: linear-gradient(#00111e 30%, #033d5e);
   overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ===== Website ===== */
@@ -129,7 +134,7 @@ hr {
 }
 
 .socialmedia {
-  margin: 2rem;
+  margin: 2rem 0;
   height: 3rem;
 }
 
