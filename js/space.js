@@ -1,5 +1,6 @@
 function changeImage() {
-  document.getElementById("spacehuhngallery").src = "img/gallery/" + (Math.floor(Math.random() * (38 + 1))) + ".jpg";
+  var pics = 40;
+  document.getElementById("spacehuhngallery").src = "img/gallery/" + (Math.floor(Math.random() * (pics + 1))) + ".jpg";
 }
 
 function copyToClipboard(element) {
